@@ -24,7 +24,7 @@
       "id": "aae5b772-10be-4d94-bd8e-be28fff45436",
       "comment": "type username",
       "command": "type",
-      "target": "css=*[data-test=\"username\"]",
+      "target": "id=user-name",
       "targets": [
         ["css=*[data-test=\"username\"]", "css:data-attr"],
         ["id=user-name", "id"],
@@ -39,7 +39,7 @@
       "id": "56630e09-3a5e-4e8f-94a1-f4fb3d68eecf",
       "comment": "type password",
       "command": "type",
-      "target": "css=*[data-test=\"password\"]",
+      "target": "id=password",
       "targets": [
         ["css=*[data-test=\"password\"]", "css:data-attr"],
         ["id=password", "id"],
@@ -54,7 +54,7 @@
       "id": "271c3a11-821d-434d-8547-4fffb0e0ebb8",
       "comment": "click on login button",
       "command": "click",
-      "target": "css=*[data-test=\"login-button\"]",
+      "target": "id=login-button",
       "targets": [
         ["css=*[data-test=\"login-button\"]", "css:data-attr"],
         ["id=login-button", "id"],
@@ -69,7 +69,7 @@
       "id": "66eeab5d-8abe-495b-8150-2138f640c4c3",
       "comment": "click on button \"Add to cart\" on Sause Labs Backpack",
       "command": "click",
-      "target": "css=*[data-test=\"add-to-cart-sauce-labs-backpack\"]",
+      "target": "id=add-to-cart-sauce-labs-backpack",
       "targets": [
         ["css=*[data-test=\"add-to-cart-sauce-labs-backpack\"]", "css:data-attr"],
         ["id=add-to-cart-sauce-labs-backpack", "id"],
@@ -98,7 +98,7 @@
       "id": "4075c98c-5680-41fa-a63b-0487b39b3fba",
       "comment": "click on checkout button ",
       "command": "click",
-      "target": "css=*[data-test=\"checkout\"]",
+      "target": "id=checkout",
       "targets": [
         ["css=*[data-test=\"checkout\"]", "css:data-attr"],
         ["id=checkout", "id"],
@@ -114,7 +114,7 @@
       "id": "349f6f3b-fe55-495c-ad69-8c5a38152668",
       "comment": "type first name",
       "command": "type",
-      "target": "css=*[data-test=\"firstName\"]",
+      "target": "id=first-name",
       "targets": [
         ["css=*[data-test=\"firstName\"]", "css:data-attr"],
         ["id=first-name", "id"],
@@ -129,7 +129,7 @@
       "id": "da4f4298-2cd1-4437-bb44-386a3a698897",
       "comment": "type last name",
       "command": "type",
-      "target": "css=*[data-test=\"lastName\"]",
+      "target": "id=last-name",
       "targets": [
         ["css=*[data-test=\"lastName\"]", "css:data-attr"],
         ["id=last-name", "id"],
@@ -144,7 +144,7 @@
       "id": "447da9b0-e45f-4b5b-860c-8581262e2068",
       "comment": "type ZIP code",
       "command": "type",
-      "target": "css=*[data-test=\"postalCode\"]",
+      "target": "id=postal-code",
       "targets": [
         ["css=*[data-test=\"postalCode\"]", "css:data-attr"],
         ["id=postal-code", "id"],
@@ -159,7 +159,7 @@
       "id": "d9a99a96-ce21-44c9-91ab-617facee1c6d",
       "comment": "click on continue button",
       "command": "click",
-      "target": "css=*[data-test=\"continue\"]",
+      "target": "id=continue",
       "targets": [
         ["css=*[data-test=\"continue\"]", "css:data-attr"],
         ["id=continue", "id"],
@@ -174,7 +174,7 @@
       "id": "e91deb31-2247-4e9a-9c75-98a728001ad7",
       "comment": "click on finish button",
       "command": "click",
-      "target": "css=*[data-test=\"finish\"]",
+      "target": "id=finish",
       "targets": [
         ["css=*[data-test=\"finish\"]", "css:data-attr"],
         ["id=finish", "id"],
@@ -231,7 +231,7 @@
       "id": "4834cfb7-e238-4bd4-8194-67397dd1c6ab",
       "comment": "type username",
       "command": "type",
-      "target": "css=*[data-test=\"username\"]",
+      "target": "id=user-name",
       "targets": [
         ["css=*[data-test=\"username\"]", "css:data-attr"],
         ["id=user-name", "id"],
@@ -246,7 +246,7 @@
       "id": "0a709eb4-35fc-4eb8-8364-8d9906095104",
       "comment": "type password",
       "command": "type",
-      "target": "css=*[data-test=\"password\"]",
+      "target": "id=password",
       "targets": [
         ["css=*[data-test=\"password\"]", "css:data-attr"],
         ["id=password", "id"],
@@ -261,7 +261,7 @@
       "id": "b2944992-c385-4ee0-9018-ab128e45ab17",
       "comment": "click on login button",
       "command": "click",
-      "target": "css=*[data-test=\"login-button\"]",
+      "target": "id=login-button",
       "targets": [
         ["css=*[data-test=\"login-button\"]", "css:data-attr"],
         ["id=login-button", "id"],
@@ -287,7 +287,7 @@
       "id": "fc8371b7-3304-4299-beda-0ba649c71717",
       "comment": "click on continue shopping button",
       "command": "click",
-      "target": "css=*[data-test=\"continue-shopping\"]",
+      "target": "id=continue-shopping",
       "targets": [
         ["css=*[data-test=\"continue-shopping\"]", "css:data-attr"],
         ["id=continue-shopping", "id"],
@@ -303,7 +303,7 @@
       "id": "5abdc032-1a11-408b-92e3-bb5d55babc7b",
       "comment": "click on add to cart sauce labs backpack button",
       "command": "click",
-      "target": "css=*[data-test=\"add-to-cart-sauce-labs-backpack\"]",
+      "target": "id=add-to-cart-sauce-labs-backpack",
       "targets": [
         ["css=*[data-test=\"add-to-cart-sauce-labs-backpack\"]", "css:data-attr"],
         ["id=add-to-cart-sauce-labs-backpack", "id"],
@@ -332,7 +332,7 @@
       "id": "a092371a-6914-4850-a045-7697b5c5068f",
       "comment": "click on remove button",
       "command": "click",
-      "target": "css=*[data-test=\"remove-sauce-labs-backpack\"]",
+      "target": "id=remove-sauce-labs-backpack",
       "targets": [
         ["css=*[data-test=\"remove-sauce-labs-backpack\"]", "css:data-attr"],
         ["id=remove-sauce-labs-backpack", "id"],
@@ -348,7 +348,7 @@
       "id": "009b60fd-b127-4a05-be89-bd5ac3909258",
       "comment": "click on continue shopping button",
       "command": "click",
-      "target": "css=*[data-test=\"continue-shopping\"]",
+      "target": "id=continue-shopping",
       "targets": [
         ["css=*[data-test=\"continue-shopping\"]", "css:data-attr"],
         ["id=continue-shopping", "id"],
